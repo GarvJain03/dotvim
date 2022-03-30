@@ -1,6 +1,5 @@
+require('plugins')
+require('nvim-treesitter-config')
 require('settings')
-require('mappings')
-require('packer-config')
-require('colorschemes-config.dracula')
-require('nvim-tree-config')
-require('lualine-config')
+require('tokyonight-config')
+

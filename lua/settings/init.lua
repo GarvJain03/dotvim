@@ -1,24 +1,39 @@
-local set = vim.opt
+vim.cmd('filetype plugin indent on')
+vim.o.shortmess = vim.o.shortmess .. 'c'
+vim.o.hidden = true
+vim.o.whichwrap = 'b,s,<,>,[,],h,l'
+vim.o.pumheight = 10
+vim.o.fileencoding = 'utf-8'
+vim.o.cmdheight = 2
+vim.o.splitbelow = true
+vim.o.splitright = true
+vim.opt.termguicolors = true
+vim.o.conceallevel = 0
+vim.o.showtabline = 2
+vim.o.showmode = true
+vim.o.backup = false
+vim.o.writebackup = false
+vim.o.updatetime = 300
+vim.o.timeoutlen = 200
+vim.o.clipboard = "unnamedplus"
+vim.o.hlsearch = false
+vim.o.ignorecase = true
+vim.o.scrolloff = 3
+vim.o.sidescrolloff = 3
+vim.o.mouse = "a"
 
-set.expandtab = true
-set.smarttab = true
-set.shiftwidth = 4
-set.tabstop = 4
+vim.wo.wrap = false
+vim.wo.number = true
+vim.wo.cursorline = true
+vim.wo.signcolumn = "yes"
 
-set.hlsearch = true
-set.incsearch = true
-set.ignorecase = true
-set.smartcase = true
-
-set.splitbelow = true
-set.splitright = true
-set.wrap = false
-set.scrolloff = 5
-set.fileencoding = 'utf-8'
-set.termguicolors = true
-
-set.relativenumber = true
-set.cursorline = true
-
-set.hidden = true
-
+vim.o.tabstop = 2
+vim.bo.tabstop = 2
+vim.o.softtabstop = 2
+vim.bo.softtabstop = 2
+vim.o.shiftwidth = 2
+vim.bo.shiftwidth = 2
+vim.o.autoindent = true
+vim.bo.autoindent = true
+vim.o.expandtab = true
+vim.bo.expandtab = true
