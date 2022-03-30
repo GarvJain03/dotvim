@@ -1,9 +1,9 @@
 return require('packer').startup(function()
-	-- Packer can manage itself
-	use 'wbthomason/packer.nvim'
+  -- Packer can manage itself
+  use 'wbthomason/packer.nvim'
 
-	-- Syntax Highlighting
-	use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
+  -- Syntax Highlighting
+  use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
 
   -- Color Theme
   use 'folke/tokyonight.nvim'
