@@ -3,7 +3,11 @@ return require('packer').startup(function()
   use 'wbthomason/packer.nvim'
 
   -- Syntax Highlighting
-  use {'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"}
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ":TSUpdate",
+    config = function() require'nvim-treesitter-config' end
+  }
 
   -- Color Theme
   use 'folke/tokyonight.nvim'
