@@ -1,4 +1,4 @@
 require('plugins')
-require('tokyonight-config')
+require('dracula-config')
 require('settings')
 require('mappings')

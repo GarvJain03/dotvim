@@ -10,7 +10,8 @@ return require('packer').startup(function()
   }
 
   -- Color Theme
-  use 'folke/tokyonight.nvim'
+  -- use 'folke/tokyonight.nvim'
+  use 'Mofiqul/dracula.nvim'
 
   -- Status Line
   use {
@@ -36,5 +37,14 @@ return require('packer').startup(function()
       'kyazdani42/nvim-web-devicons', -- optional, for file icon
     },
     config = function() require'nvim-tree-config' end
+  }
+
+  use 'windwp/nvim-ts-autotag'
+  
+  use 'p00f/nvim-ts-rainbow'
+
+  use {
+    'windwp/nvim-autopairs',
+    config = function() require'autopairs-config' end
   }
 end)
