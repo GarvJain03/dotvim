@@ -47,4 +47,10 @@ return require('packer').startup(function()
     'windwp/nvim-autopairs',
     config = function() require'autopairs-config' end
   }
+
+  -- Discord Rich Presence
+  use {
+    'andweeb/presence.nvim',
+    config = function() require'presence-config' end
+  }
 end)
