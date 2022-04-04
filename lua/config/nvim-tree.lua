@@ -1,3 +1,5 @@
+vim.g.nvim_tree_indent_markers = 1
+
 require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
   auto_reload_on_write = true,
   disable_netrw = false,
@@ -55,8 +57,8 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
     exclude = {},
   },
   git = {
-    enable = true,
-    ignore = true,
+    enable = false,
+    ignore = false,
     timeout = 400,
   },
   actions = {

@@ -1,4 +1,4 @@
 require('plugins')
-require('dracula-config')
+require('themeing')
 require('settings')
-require('mappings')
+require('keybindings')
