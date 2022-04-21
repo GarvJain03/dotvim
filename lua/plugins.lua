@@ -10,11 +10,11 @@ return require('packer').startup(function()
     }
   
     -- Color Theme
-    -- use 'Mofiqul/dracula.nvim'
     -- use 'haishanh/night-owl.vim'
     -- use 'folke/tokyonight.nvim'
-    use 'navarasu/onedark.nvim'
-  
+    -- use 'navarasu/onedark.nvim'
+    use 'Mofiqul/dracula.nvim'
+    
     -- Status Line
     use {
       'nvim-lualine/lualine.nvim',
@@ -81,6 +81,13 @@ return require('packer').startup(function()
     use {
       'glepnir/dashboard-nvim',
       config = function() require('config.dashboard') end
+    }
+
+    use {
+      'lewis6991/gitsigns.nvim',
+      config = function()
+        require('gitsigns').setup{current_line_blame = true}
+      end
     }
   end)
   

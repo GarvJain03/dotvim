@@ -1,5 +1,3 @@
-vim.g.nvim_tree_indent_markers = 1
-
 require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
   auto_reload_on_write = true,
   disable_netrw = false,
@@ -24,6 +22,16 @@ require'nvim-tree'.setup { -- BEGIN_DEFAULT_OPTS
       custom_only = false,
       list = {
         -- user mappings go here
+      },
+    },
+  },
+  renderer = {
+    indent_markers = {
+      enable = true,
+      icons = {
+        corner = "└ ",
+        edge = "│ ",
+        none = "  ",
       },
     },
   },

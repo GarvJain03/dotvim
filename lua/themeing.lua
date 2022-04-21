@@ -1,4 +1,1 @@
-require('onedark').setup {
-    style = 'warm'
-}
-require('onedark').load()
+vim.cmd[[colorscheme dracula]]
