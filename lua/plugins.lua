@@ -77,5 +77,10 @@ return require('packer').startup(function()
         'sheerun/vim-polyglot', 'alampros/vim-styled-jsx', 'mattn/emmet-vim', 'jiangmiao/auto-pairs', 'jparise/vim-graphql'
       }
     }
+
+    use {
+      'glepnir/dashboard-nvim',
+      config = function() require('config.dashboard') end
+    }
   end)
   
