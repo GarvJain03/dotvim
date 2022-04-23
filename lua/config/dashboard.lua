@@ -9,5 +9,3 @@ g.dashboard_custom_header = {
  ' ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║',
  ' ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝',
 }
-
-g.dashboard_custom_footer = {'Welcome Garv Jain'}

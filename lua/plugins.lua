@@ -24,9 +24,9 @@ return require('packer').startup(function()
   
     -- Tabs (Buffer Line)
     use {
-      'akinsho/bufferline.nvim',
+      'romgrk/barbar.nvim',
       requires = 'kyazdani42/nvim-web-devicons',
-      config = function() require'config.bufferline' end
+      config = function() require'config.barbar' end
     }
   
     -- Github Copilot
