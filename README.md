@@ -18,3 +18,5 @@ Start neovim and run
 ```bash
 :PackerSync
 ```
+### References
+<a href="https://github.com/VapourNvim/VapourNvim">VapourNvim</a>
