@@ -23,4 +23,5 @@ Start neovim and run
 ### References
 <a href="https://github.com/VapourNvim/VapourNvim">VapourNvim</a>
 
+---
 > Note: This config is no longer being maintained.
